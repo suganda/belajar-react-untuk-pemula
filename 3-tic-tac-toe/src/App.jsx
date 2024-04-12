@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
+// test update
 import { useState } from 'react';
 
 function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
-      {value}
+       {value}
     </button>
   );
 }
